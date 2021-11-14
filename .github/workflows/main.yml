@@ -1,0 +1,23 @@
+name: github-actions
+on: [push]
+jobs:
+  make-lint:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
+
+      - name: Install
+        run: make install 
+
+      - name: Check code with linter.
+        run: make lint
+        
+      - name: Make tests.
+        run: make test
