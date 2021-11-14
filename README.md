@@ -1,5 +1,7 @@
 # php-package
 
+
+[![github-actions](https://github.com/mgrshn/hexlet-phpunit/actions/workflows/main.yml/badge.svg?event=push)](https://github.com/mgrshn/hexlet-phpunit/actions/workflows/main.yml)
 [![Github Actions Status](https://github.com/hexlet-boilerplates/php-package/workflows/PHP%20CI/badge.svg)](https://github.com/hexlet-boilerplates/php-package/actions)
 [![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package)
 [![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/php-package/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/php-package/issues)
